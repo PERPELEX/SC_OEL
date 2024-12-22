@@ -1,0 +1,35 @@
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+
+.left-layout {
+    -fx-background-image: url('background1.jpg');
+    -fx-background-size: cover;
+}
+
+.right-layout {
+    -fx-background-image: url('background.jpg');
+    -fx-background-size: cover;
+}
+
+label {
+    -fx-font-size: 24px;
+    -fx-text-fill: #4CAF50;
+    -fx-font-weight: bold;
+}
+
+
+.text-field, .combo-box, .button {
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
